@@ -4,6 +4,8 @@ import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 public class Quiz2 {
+    public static final int QUESTION_COUNT = 10;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("""
@@ -12,13 +14,13 @@ public class Quiz2 {
                 Для начала представьтесь, пожалуйста.
                 """);
         Person user = new Person(scanner.nextLine());
-        DaytimeGreeting daytimeGreeting = new DaytimeGreeting();
-        System.out.println(daytimeGreeting.getTextGreeting() + ", " + user.getUserName() + "!");
+        System.out.println(DaytimeGreeting.getTextGreeting() + ", " + user.getUserName() + "!");
         System.out.println("""
                               Я буду задавать вопросы, а вы давать ответы.
                               Потом я скажу, сколько правильных ответов вы дали и выставлю оценку.
                               Итак, поехали!""");
         animateChar('*', 100);
+        Question.getTextOfQuestion(1);
 
     }
     static void animateChar(char symbolToAnimate, int delayMillisecond) {
@@ -64,9 +66,7 @@ class Person {
 }
 
 class DaytimeGreeting {
-    private String textGreeting;
-
-    public String getTextGreeting() {
+    public static String getTextGreeting() {
         String textGreeting = "";
         Date dateNow = new Date();
         SimpleDateFormat hourCurrent = new SimpleDateFormat("kk");
@@ -85,12 +85,22 @@ class DaytimeGreeting {
 }
 
 class Question {
-    private String[] textsOfQuestion;
+    static int questionCount = Quiz2.QUESTION_COUNT;
+    private static int[] usedQuestions = new int[questionCount];;
 
-    public String getTextOfQuestion(int numberOfQuestion) {
+    private static String[] textsOfQuestion = new String[questionCount];
 
+    private String[] textsOfAnswers = new String[questionCount];
+    private int[] correctAnswers = new int[questionCount];
+    //public void main (){
+        textsOfQuestion[].String[1] = "Первый вопрос";
+    //return;
+//}
+    public static String getTextOfQuestion(int numberOfQuestion) {
+        usedQuestions[numberOfQuestion] = 1;
         return textsOfQuestion[numberOfQuestion];
     }
+
 
 }
 
