@@ -41,5 +41,6 @@ public class TestDemo {
             default:
                 System.out.println("Двоечник!");
         }
+        scanner.close();
     }
 }
