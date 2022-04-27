@@ -80,22 +80,22 @@ public class Quiz2 {
 class Question {
     private static int questionCount = Quiz2.QUESTION_ALL; //локальная константа общего количества вопросов
 	private static String[] textsOfQuestions = new String[questionCount]; //тексты самих вопросов
-	private static int[] correctAnswers = new int[] {11, 22, 33, 44, 55, 66, 77, 88, 99, 1010}; //номера правильных ответов
+	private static int[] correctAnswers = new int[] {3, 3, 2, 2, 4, 1, 1, 4, 3, 4}; //номера правильных ответов
 	private static int counter = 0; //счетчик вопросов для неповторяемости
     static int[] indexOfUsedQuestions = new int[questionCount]; //для хранения последовательности задавания вопросов
 	private static boolean[] flagUsedQuestions = new boolean[questionCount]; //флаги задавания вопросов
     
 	static {
-		textsOfQuestions[0] = "Первый вопрос";
-		textsOfQuestions[1] = "Второй вопрос";
-		textsOfQuestions[2] = "Третий вопрос";
-		textsOfQuestions[3] = "Четвёртый вопрос";
-		textsOfQuestions[4] = "Пятый вопрос";
-		textsOfQuestions[5] = "Шестой вопрос";
-		textsOfQuestions[6] = "Седьмой вопрос";
-		textsOfQuestions[7] = "Восьмой вопрос";
-		textsOfQuestions[8] = "Девятый вопрос";
-		textsOfQuestions[9] = "Десятый вопрос";
+		textsOfQuestions[0] = "Как звали собаку Павлова? 1. Тузик 2. Шарик 3. Рыжик 4. Бобик.";
+		textsOfQuestions[1] = "Какая кислота образует ацетаты? 1.Лимонная 2. Аспириновая 3. Уксусная 4. Содовая";
+		textsOfQuestions[2] = "Какого цвета питахайя? 1. Бирюзовая. 2. Розовая. 3. Голубая. 4. Фиолетовая.";
+		textsOfQuestions[3] = "Какое растение существует на самом деле? 1. Лох чилийский 2. Лох индийский 3. Лох греческий 4. Лох русский";
+		textsOfQuestions[4] = "Как называется ближайшая к Земле звезда? 1. Проксиома Центавра 2. Сириус 3. Полярная 4. Солнце";
+		textsOfQuestions[5] = "Что помогает запомнить мнемоническое правило «Это я знаю и помню прекрасно»? 1. Число Пи 2.Ряд активности металлов 3.Цвета радуги 4.Порядок падежей";
+		textsOfQuestions[6] = "Какую площадь имеет клетка стандартной школьной тетради? 1. 0,25 кв.см 2. 1 кв.см 3. 0,5 кв.см 4. 1,25 кв. см";
+		textsOfQuestions[7] = "На каком озере дует ветер баргузин? 1. Каспий 2. Ладога 3. Арал 4. Байкал";
+		textsOfQuestions[8] = "В каком жанре не сочинял Винни-Пух? 1. Пыхтелки 2. Шумелки 3. Ревелки 4. Сопелки";
+		textsOfQuestions[9] = "Какого вида акул не существует? 1. Лимонная 2. Кошачья 3. Тигровая 4. Чёрная";
 	}
 	
 	//возврат случайного вопроса без повторения
