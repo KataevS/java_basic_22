@@ -87,8 +87,3 @@ public class Quiz2 {
 		return textGreeting;
 	}
 }
-
-
-
-
-

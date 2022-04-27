@@ -2,7 +2,7 @@ class Person {
     private String userName;
     private int userGrade;
 
-    public Person(String userName) {
+    Person(String userName) {
         this.userName = userName;
         this.userGrade = 0;
     }
