@@ -1,17 +1,18 @@
-import java.text.SimpleDateFormat;
-import java.util.Date;
+//import java.text.SimpleDateFormat;
+//import java.util.Date;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
+import java.time.LocalDateTime;
 
 public class Quiz2 {
 
 	//todo:
 	// 1. В современной джаве если вывод типа переменной очевиден, то можно писать слово var. Это не обызательно
-	// но смотрится красиво и современно. Я пользуюсь.
+	// но смотрится красиво и современно. Я пользуюсь. - подумал, что пока в учебных целях православнее будет указывать конкретный тип
 	// 2. Чаще нажимай комбинацию Ctrl+Alt+L (Reformat code) - забудешь что такое выставление пробелов. Также рекомендую
-	// поставить плагин Key Promoter X - помогает учить хоткеи.
+	// поставить плагин Key Promoter X - помогает учить хоткеи. - в идее да, а в нотепаде увы, печально всё ((
 	// 3. Не стоит писать классы в одном файле, джава это разрешает но стандартом считается 1 файл 1 класс.
-	// лучше в таком случае создавать пакет и туда складывать файлы
+	// лучше в таком случае создавать пакет и туда складывать файлы - принято, сознательно запихнул всё в один файл, опять же как ньюфаг.
 
 	public static final int QUESTION_ALL = 10; //общее число вопросов
 	public static final int QUESTION_SELECTED = 3; //число задаваемых вопросов
@@ -67,14 +68,14 @@ public class Quiz2 {
 	
 	//метод возвращает приветствие в зависимости от текущего часа
 	private static String showGreeting() {
-		//todo: Все нижеописанное можно упростить используя LocalDateTime.now().getHour()
+		//todo: Все нижеописанное можно упростить используя LocalDateTime.now().getHour() - fixed
 		// var hour = LocalDateTime.now().getHour();
-
 		var textGreeting = "";
-		var dateNow = new Date();
-		var hourCurrent = new SimpleDateFormat("kk");
-		var hourInteger = Integer.parseInt(hourCurrent.format(dateNow));
-		// тут идейка подсказывает, что можно упростить условие
+		//var dateNow = new Date();
+		//var hourCurrent = new SimpleDateFormat("kk");
+		//var hourInteger = Integer.parseInt(hourCurrent.format(dateNow));
+		var hourInteger = LocalDateTime.now().getHour();
+		// тут идейка подсказывает, что можно упростить условие - тоже перемудрил
 		if (hourInteger <= 6) {
 			textGreeting = "Добрая ночь";
 		} else if (hourInteger <= 10) {

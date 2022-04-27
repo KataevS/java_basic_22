@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 class Question {
-	//todo Плохая идея ссылаться на константу лучше использовать ее напрямую
+	//todo Плохая идея ссылаться на константу лучше использовать ее напрямую - ясно, перемудрил
 	private static String[] textsOfQuestions = new String[Quiz2.QUESTION_ALL]; //тексты самих вопросов
 	private static int[] correctAnswers = new int[]{3, 3, 2, 2, 4, 1, 1, 4, 3, 4}; //номера правильных ответов
 	private static int counter = 0; //счетчик вопросов для неповторяемости
@@ -25,7 +25,7 @@ class Question {
 	public static String getRandomQuestion() {
 		while (true) {
 			var numberOfQuestion = (int) (Math.random() * Quiz2.QUESTION_ALL);
-			if (!flagUsedQuestions[numberOfQuestion]) {
+			if (!flagUsedQuestions[numberOfQuestion]) { //тут я спецом написал, чтобы было явно видно условие, опять же как ньюфаг
 				indexOfUsedQuestions[counter] = numberOfQuestion;
 				flagUsedQuestions[numberOfQuestion] = true;
 				counter++;
@@ -39,7 +39,7 @@ class Question {
 	
 	public static void resetQuestions() {
 		counter = 0;
-		//todo можно вот так. Это новые свистелки современной джавы
+		//todo можно вот так. Это новые свистелки современной джавы - збс!
 		Arrays.fill(flagUsedQuestions, false);
 	}
 }
