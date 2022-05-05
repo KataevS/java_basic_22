@@ -1,3 +1,5 @@
+package quiz2;
+
 class Person {
     private String userName;
     private int userGrade;

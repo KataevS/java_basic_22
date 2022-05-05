@@ -1,3 +1,5 @@
+package quiz2;
+
 import java.util.Arrays;
 
 class Question {

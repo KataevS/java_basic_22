@@ -1,3 +1,5 @@
+package quiz2;
+
 class Answer {
 	private static int[] userAnswers = new int[Quiz2.QUESTION_SELECTED]; //ответы участника
 	private static int counter = 0; //счётчик ответов участника
