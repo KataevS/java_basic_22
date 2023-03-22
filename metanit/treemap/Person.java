@@ -1,3 +1,4 @@
+package metanit;
 class Person {
 
     private String name;

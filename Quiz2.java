@@ -1,8 +1,11 @@
+package Quiz;
+
 import java.text.SimpleDateFormat;
 import java.util.Scanner;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 import java.lang.Math;
+
 
 public class Quiz2 {
 	
