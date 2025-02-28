@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="KUoFl5WQvHAJrL7WHfOj">
-    <mxGraphModel dx="989" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="956" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,11 +9,11 @@
             <mxPoint x="414" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZSdAQexFSt7yTD40yPm5-1" value="Извещение приехало из Фактора" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="311" y="40" width="206" height="60" as="geometry" />
+        <mxCell id="ZSdAQexFSt7yTD40yPm5-1" value="Извещение приехало из Фактора с сопроводительным письмом" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZSdAQexFSt7yTD40yPm5-4" value="Регистрация письма в канцелярии&lt;div&gt;через Яшкину или Кирюхину&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="306" y="140" width="216" height="60" as="geometry" />
+          <mxGeometry x="320" y="110" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZSdAQexFSt7yTD40yPm5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZSdAQexFSt7yTD40yPm5-4" target="ZSdAQexFSt7yTD40yPm5-6">
           <mxGeometry relative="1" as="geometry">
@@ -21,8 +21,65 @@
             <mxPoint x="414" y="220" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZSdAQexFSt7yTD40yPm5-6" value="Регистрация письма в канцелярии" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="311" y="240" width="206" height="60" as="geometry" />
+        <mxCell id="ZSdAQexFSt7yTD40yPm5-6" value="Воронина, Боровикова обрабатывают документы, Коваленко приносит в каб. 513" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="180" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSdAQexFSt7yTD40yPm5-7" value="Подписать извещение у двоих конструкторов, поставить рассылку в 40 отдел" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="260" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSdAQexFSt7yTD40yPm5-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZSdAQexFSt7yTD40yPm5-6" target="ZSdAQexFSt7yTD40yPm5-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSdAQexFSt7yTD40yPm5-9" value="Подписать у технологов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="350" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSdAQexFSt7yTD40yPm5-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZSdAQexFSt7yTD40yPm5-7" target="ZSdAQexFSt7yTD40yPm5-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="370" as="sourcePoint" />
+            <mxPoint x="610" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSdAQexFSt7yTD40yPm5-11" value="Подписать в ПДО у Буряковой" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="410" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSdAQexFSt7yTD40yPm5-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZSdAQexFSt7yTD40yPm5-9" target="ZSdAQexFSt7yTD40yPm5-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="460" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSdAQexFSt7yTD40yPm5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZSdAQexFSt7yTD40yPm5-6" target="ZSdAQexFSt7yTD40yPm5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSdAQexFSt7yTD40yPm5-14" value="Если извещение затрагивает ВП, подписать у Астахова" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSdAQexFSt7yTD40yPm5-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZSdAQexFSt7yTD40yPm5-11" target="ZSdAQexFSt7yTD40yPm5-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="530" as="sourcePoint" />
+            <mxPoint x="440" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSdAQexFSt7yTD40yPm5-16" value="Подписать у Яшкина/Владыкина" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="550" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSdAQexFSt7yTD40yPm5-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZSdAQexFSt7yTD40yPm5-14" target="ZSdAQexFSt7yTD40yPm5-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="510" as="sourcePoint" />
+            <mxPoint x="440" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSdAQexFSt7yTD40yPm5-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZSdAQexFSt7yTD40yPm5-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="510" as="sourcePoint" />
+            <mxPoint x="420" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSdAQexFSt7yTD40yPm5-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="620" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
