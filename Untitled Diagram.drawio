@@ -12,7 +12,7 @@
         <mxCell id="ZSdAQexFSt7yTD40yPm5-1" value="Извещение приехало из Фактора с сопроводительным письмом" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="40" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZSdAQexFSt7yTD40yPm5-4" value="Регистрация письма в канцелярии&lt;div&gt;через Яшкину или Кирюхину&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZSdAQexFSt7yTD40yPm5-4" value="Регистрация письма в канцелярии&lt;div&gt;через Яшкину, Кирюхину либо самостоятельно&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="110" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZSdAQexFSt7yTD40yPm5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZSdAQexFSt7yTD40yPm5-4" target="ZSdAQexFSt7yTD40yPm5-6">
